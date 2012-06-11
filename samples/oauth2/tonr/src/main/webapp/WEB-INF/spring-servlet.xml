@@ -54,7 +54,8 @@
 
 	<mvc:annotation-driven>
 		<mvc:message-converters>
-			<bean class="org.springframework.http.converter.BufferedImageHttpMessageConverter" />
+			<!-- <bean class="org.springframework.http.converter.BufferedImageHttpMessageConverter" /> -->
+			<bean class="org.springframework.security.oauth.examples.tonr.BufferedImageHttpMessageConverter" /> 
 		</mvc:message-converters>
 	</mvc:annotation-driven>
 
